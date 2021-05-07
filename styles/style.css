@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 body {
   color: #263238;
@@ -12,10 +14,6 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-}
-
-button {
-  -webkit-appearance: none;
 }
 
 hr {
@@ -35,13 +33,33 @@ a:active {
   text-decoration: none;
 }
 
+.secondary-font {
+  font-family: "Bebas Neue";
+  letter-spacing: 0.5px;
+}
+
+/* .secondary-font.inline-type {
+  font-family: "Dancing Script";
+} */
+
+header {
+  background-color: #3498db;
+  margin-bottom: 20px;
+  padding: 15px 0;
+}
+
 .header-title {
-  font-weight: 800;
-  color: #3498db;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 0px;
+  letter-spacing: -2px;
 }
 
 .header-para {
-  opacity: 0.7;
+  opacity: 0.8;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 0px;
 }
 
 .info-card {
@@ -50,12 +68,7 @@ a:active {
   padding: 10px;
   display: block;
   transition: all 0.2s ease-in-out;
-}
-
-@media (max-width: 700px) {
-  .info-card {
-    margin-bottom: 20px;
-  }
+  margin-bottom: 20px;
 }
 
 .info-card:hover,
@@ -89,8 +102,9 @@ a:active {
 /* Sections */
 
 .section-title {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 26px;
+  font-weight: 800;
+  opacity: 0.8;
   display: flex;
   align-items: center;
 }
@@ -169,9 +183,17 @@ span.phone {
 }
 
 .btn-app {
-  background-color: #3498db;
+  background-color: rgb(98, 173, 223);
   color: white;
   border-radius: 1px;
+  -webkit-appearance: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-app i {
+  margin-right: 5px;
 }
 
 .btn-app:hover {
@@ -187,6 +209,7 @@ span.phone {
   padding: 15px;
   display: block;
   transition: all 0.2s ease-in-out;
+  margin-bottom: 25px;
 }
 
 .item-card-title {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BhavCovid | Home Treatment</title>
+    <title>BhavCovid | Medical Equipments</title>
     <!-- Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
@@ -49,8 +49,8 @@
             </a>
           </div>
           <h4 class="section-title">
-            <i class="fa fa-user-md me-3 blue-icon"></i>
-            Home Covid Care / Treatment
+            <i class="fa fa-hand-holding-medical blue-icon me-3"></i>
+            Medical Equipments
           </h4>
         </div>
         <!-- Home treatment images -->
@@ -59,11 +59,59 @@
           <img src="./assets/loader.gif" width="400" alt="" />
         </div>
         <div class="container mt-4 hide-before-load">
-          <div class="grid">
-            <div class="grid-item" v-for="item in homecare">
-              <a :href="item" data-fancybox="gallery">
-                <img :src="item" alt="" class="img-fluid" />
-              </a>
+          <div class="row">
+            <div class="col-lg-4" v-for="item in equipments">
+              <div class="item-card">
+                <div class="item-card-upper">
+                  <h5 class="item-card-title">{{item.title}}</h5>
+                  <p class="item-card-desc">{{item.details}}</p>
+
+                  <div class="row" v-if="item.morning || item.evening">
+                    <span class="item-card-time">
+                      <i class="fa fa-clock me-1"></i> Timing :
+                    </span>
+                    <div class="col-6">
+                      <p class="item-card-data">
+                        <span class="item-card-time2">
+                          Morning : {{item.morning}}
+                        </span>
+                      </p>
+                    </div>
+                    <div class="col-6">
+                      <span class="item-card-time2">
+                        Evening : {{item.evening}}
+                      </span>
+                    </div>
+                  </div>
+                  <span class="item-card-org mb-4 d-block">
+                    <i class="fa fa-users me-1"></i> {{item.org}}
+                  </span>
+                </div>
+                <div class="item-card-bottom" v-if="item.phn1 || item.phn2">
+                  <div class="row">
+                    <div class="col-lg-6" v-if="item.phn1">
+                      <a
+                        type="button"
+                        class="btn btn-app w-100"
+                        :href="`tel:${item.phn1}`"
+                      >
+                        <i class="fa fa-phone fa-flip-horizontal me-3"></i>
+                        <span class="phone"> {{item.phn1}} </span>
+                      </a>
+                    </div>
+                    <div class="col-lg-6 mt-2 mt-lg-0" v-if="item.phn2">
+                      <a
+                        type="button"
+                        :href="`tel:${item.phn2}`"
+                        class="btn btn-app w-100"
+                      >
+                        <i class="fa fa-phone fa-flip-horizontal me-3"></i>
+                        <span class="phone"> {{item.phn2}} </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
