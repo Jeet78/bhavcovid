@@ -38,6 +38,36 @@ var app = new Vue({
       "./assets/images/o2-3.jpeg",
       "./assets/images/o2-2.jpeg",
     ],
+    oxyContacts: [
+      {
+        name: "IRFAN Oxygen",
+        contact: "9909931645",
+      },
+      {
+        name: "Mahir Oxygen",
+        contact: "9274752797",
+      },
+      {
+        name: "Manavta Oxygen",
+        contact: "7874313873",
+      },
+      {
+        name: "Rashid Bata Oxygen",
+        contact: "9374150066",
+      },
+      {
+        name: "Sahil Oxygen",
+        contact: "9904253709",
+      },
+      {
+        name: "Shahrukh Oxygen",
+        contact: "8733843412",
+      },
+      {
+        name: "Shilpa Oxygen",
+        contact: "8238892149",
+      },
+    ],
     food: [
       {
         title: "Free Meal for Patients",
