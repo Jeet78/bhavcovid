@@ -67,6 +67,47 @@ var app = new Vue({
         name: "Shilpa Oxygen",
         contact: "8238892149",
       },
+      { name: "Gunubhai Delawala", contact: "9824040889" },
+      {
+        name: "Hitesh Kunjadiya",
+        contact: "9427434465",
+      },
+      {
+        name: "Sadbhavna Trust Nishant Khagram",
+        contact: "8758770770",
+      },
+      {
+        name: "Kishor Hapaliya",
+        contact: "9825507171",
+      },
+      {
+        name: "Shravan Virani",
+        contact: "9824505706",
+      },
+      {
+        name: "Sanjay Hirani Kranti",
+        contact: "9825077454",
+      },
+      {
+        name: "Ajitsinh Dodiya Freedom Yuva Group",
+        contact: " 8200329881",
+      },
+      {
+        name: "Nilesh Harsoda",
+        contact: "9898575606",
+      },
+      {
+        name: "Vibhash Sheth Kanaiya Mitra mandal",
+        contact: "8140901234",
+      },
+      {
+        name: "Milan Kothari",
+        contact: "9824294531",
+      },
+      {
+        name: "Ashish Joshi",
+        contact: "9426900500",
+      },
     ],
     food: [
       {
