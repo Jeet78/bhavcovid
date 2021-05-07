@@ -67,12 +67,20 @@ var app = new Vue({
         phn2: "7383412348",
       },
       {
+        title: "Mosambi at 30-40 Rs/kg For Needy Patients.",
+        details:
+          "This is for needy patients only, Kindly Bring Patient Prescription and covid positive report along",
+        org: "Pramodbhai Vora",
+        phn1: "9427780880",
+      },
+      {
         title: "Free Coconut Water (Nariyel Pani)",
         details:
           "Organised by & for people of bhavnagar. (Volunteers can join)",
         org: "Unknown",
         phn1: "6357675555",
       },
+
       {
         title: "Param Tiffin - JAIN (2 Times)",
         details: "Kindly call before 1 day and send all the details.",
