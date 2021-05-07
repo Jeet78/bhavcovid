@@ -32,5 +32,11 @@ var app = new Vue({
       "./assets/images/hospital-9.jpeg",
       "./assets/images/hospital-10.jpeg",
     ],
+    oxygen: [
+      "./assets/images/o2-4.jpeg",
+      "./assets/images/o2-1.jpeg",
+      "./assets/images/o2-3.jpeg",
+      "./assets/images/o2-2.jpeg",
+    ],
   },
 });
