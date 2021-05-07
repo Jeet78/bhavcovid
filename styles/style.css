@@ -14,6 +14,10 @@ body {
   flex-direction: column;
 }
 
+button {
+  -webkit-appearance: none;
+}
+
 hr {
   background-color: rgba(52, 152, 219, 0.9) !important;
 }
@@ -167,6 +171,7 @@ span.phone {
 .btn-app {
   background-color: #3498db;
   color: white;
+  border-radius: 1px;
 }
 
 .btn-app:hover {
