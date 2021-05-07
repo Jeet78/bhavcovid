@@ -40,6 +40,10 @@ var app = new Vue({
     ],
     oxyContacts: [
       {
+        name: "Gujju Group",
+        contact: "7016871131",
+      },
+      {
         name: "IRFAN Oxygen",
         contact: "9909931645",
       },
@@ -111,6 +115,14 @@ var app = new Vue({
     ],
     food: [
       {
+        title: "Free Food for Patients",
+        details: "Kindly call before a day and send all the details.",
+        morning: "11 AM - 1 PM",
+        evening: "6 PM - 7 PM",
+        org: "WeHelp Bhavnagar.",
+        phn1: "8401284777",
+      },
+      {
         title: "Free Meal for Patients",
         details: "Kindly call before 1 day and send all the details.",
         morning: "11 AM - 1 PM",
@@ -151,9 +163,14 @@ var app = new Vue({
         org: "Unknown",
         phn1: "6357675555",
       },
-
       {
-        title: "Param Tiffin - JAIN (2 Times)",
+        title: "Hygenic Tiffin service at affordable price",
+        details: "Kindly call before a day and send all the details.",
+        org: "Rasthaal Caterers",
+        phn1: "7567246827",
+      },
+      {
+        title: "Param Tiffin",
         details: "Kindly call before 1 day and send all the details.",
         org: "Arham Yuva Seva Group",
         phn1: "9136442493",
