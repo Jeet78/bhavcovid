@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#app").imagesLoaded(function () {
-    $("#loader").fadeOut();
-
+    $("#loader").hide();
+    $(".hide-before-load").fadeIn();
     $(".grid").masonry({
       itemSelector: ".grid-item",
       columnWidth: 240,

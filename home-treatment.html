@@ -32,41 +32,49 @@
   </head>
   <body>
     <div id="app">
-      <header class="py-3">
+      <header class="pt-3">
         <div class="container">
           <h1 class="header-title">BhavCovid</h1>
           <p class="header-para">
-            All info and resources related to covid for Bhavnagar, Gujarat (IN)
+            All The Information & Resources related to covid for Bhavnagar,
+            Gujarat (IN).
           </p>
           <hr class="my-4" />
         </div>
       </header>
       <!-- Resources -->
-      <div class="container">
-        <div class="breadcrumb">
-          <a href="index.html" class="breadcrumb-text mb-0">
-            <i class="fa fa-arrow-left me-2"></i> Go Back
-          </a>
-        </div>
-        <h4 class="section-title">
-          <i class="fa fa-home me-1"></i>
-          Home Covid Care / Treatment
-        </h4>
-      </div>
-      <!-- Loader -->
-      <div class="container loader-container" id="loader">
-        <img src="./assets/loader.gif" width="400" alt="" />
-      </div>
-      <!-- Home treatment images -->
-      <div class="container mt-4">
-        <div class="grid">
-          <div class="grid-item" v-for="item in homecare">
-            <a :href="item" data-fancybox="gallery">
-              <img :src="item" alt="" class="img-fluid" />
+      <main class="main">
+        <div class="container">
+          <div class="breadcrumb">
+            <a href="index.html" class="breadcrumb-text mb-0">
+              <i class="fa fa-arrow-left me-2"></i> Go Back
             </a>
           </div>
+          <h4 class="section-title">
+            <i class="fa fa-home me-1"></i>
+            Home Covid Care / Treatment
+          </h4>
         </div>
-      </div>
+        <!-- Home treatment images -->
+        <!-- Loader -->
+        <div class="container loader-container" id="loader">
+          <img src="./assets/loader.gif" width="400" alt="" />
+        </div>
+        <div class="container mt-4 hide-before-load">
+          <div class="grid">
+            <div class="grid-item" v-for="item in homecare">
+              <a :href="item" data-fancybox="gallery">
+                <img :src="item" alt="" class="img-fluid" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <a href="disclaimer.html"> Disclaimer & Terms of use</a>
+        </div>
+      </footer>
     </div>
 
     <!-- Scripts -->
