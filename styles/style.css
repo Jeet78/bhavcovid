@@ -191,6 +191,10 @@ span.phone {
   align-items: center;
 }
 
+.btn-app-home {
+  background-color: rgb(55, 153, 218);
+}
+
 .btn-app i {
   margin-right: 5px;
 }
