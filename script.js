@@ -96,6 +96,13 @@ var app = new Vue({
         phn1: "9898317316",
       },
       {
+        title: "Oxygen Flow-meter",
+        details: "Oxygen flow meter which is fixed on cylinder. ",
+        org: "Dhavalbhai Gulvani",
+        phn1: "9313746010",
+        phn2: "7096885050",
+      },
+      {
         title: "Oxygen Valve & Flow-meters",
         details:
           "Please visit : Jay Traders, M.G. Road (Opposite Khodiyar Icecream) OR Bhagat Trading Opposite Vaishali talkies. ",
