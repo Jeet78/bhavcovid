@@ -195,11 +195,17 @@ var app = new Vue({
       {
         title: "Dev Pathology Laboratory",
         details: "Home Sample Collection Available.",
-        morning: "11 AM - 1 PM",
-        evening: "6 PM - 7 PM",
         org:
           "No 6, Ground Floor, Samip Complex, Kalubha Road, Bhavnagar - 364001, Opposite Sir T Hospital Bus Stop",
         phn1: "02782513738",
+      },
+      {
+        title: "Green Cross Pathology Laboratory",
+        details: "Home Sample Collection Available. (Also For Blood)",
+
+        org:
+          "PL. 2247, D2 Hill Drive, Fullwadi Chowk,Bhavnagar, Bhavnagar, Gujarat 364002, India",
+        phn1: "02782515731",
       },
     ],
     equipments: [
