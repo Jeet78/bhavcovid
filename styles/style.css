@@ -250,3 +250,12 @@ span.phone {
   font-size: 13px;
   opacity: 0.8;
 }
+
+.item-card-org2 {
+  /* color: #3498db; */
+  text-transform: capitalize;
+  letter-spacing: 0px;
+  font-weight: 600;
+  font-size: 13px;
+  opacity: 0.8;
+}

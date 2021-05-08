@@ -176,6 +176,32 @@ var app = new Vue({
         phn1: "9136442493",
       },
     ],
+    labs: [
+      {
+        title: "Vision Laboratory",
+        details: "Home Sample Collection Available.",
+
+        org:
+          "Carlton Square Complex, Kalanala Road, Near Dada Saheb Jain Mandir Road, Kalanala, Bhavnagar - 364001.",
+        phn1: "02782224143",
+      },
+      {
+        title: "Arogya Pathology Laboratory",
+        details: "Affordable Rates & Home Sample Collection Available.",
+        org:
+          "3, Ground floor, Sai Ganga Complex, Kalubha Rd, near GenX Hotel, Bhavnagar, Gujarat 364002",
+        phn1: "02782522434",
+      },
+      {
+        title: "Dev Pathology Laboratory",
+        details: "Home Sample Collection Available.",
+        morning: "11 AM - 1 PM",
+        evening: "6 PM - 7 PM",
+        org:
+          "No 6, Ground Floor, Samip Complex, Kalubha Road, Bhavnagar - 364001, Opposite Sir T Hospital Bus Stop",
+        phn1: "02782513738",
+      },
+    ],
     equipments: [
       {
         title: "BIPAP Machine on Rent.",
